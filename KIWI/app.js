@@ -125,7 +125,7 @@ function logCommand(userText, aiText) {
 }
 
 async function askGPT(message) {
-    const apiKey = "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";
+    const apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";//Add it 
     const endpoint = "https://api.openai.com/v1/chat/completions";
 
     try {
@@ -196,4 +196,5 @@ window.addEventListener('load', () => {
     console.log("🚀 KIWI-X is initializing...");
     speak("Initializing KIWI-X...");
     wishMe();
+
 });
